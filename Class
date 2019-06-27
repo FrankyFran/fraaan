@@ -1,0 +1,150 @@
+class Animal: 
+  pet = None
+  name = None 
+  weight = 0 
+
+  def __init__(self):
+    pass
+
+  def feature(self, pet, name):
+      return self.pet
+      return self.name
+
+
+print('\t Тут живут и горя не знают: \n')
+
+class Cowpet (Animal):
+  pet = 'Корова'
+  name = 'Манька'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+Cow = Cowpet ('доить', '400')
+print(Cow.pet + ' по кличке ' + Cow.name + ', которую пора ' + Cow.skills + ', ибо вес равен ' + Cow.weight + ' кг.') 
+
+class Sheep (Animal):
+  pet = 'Овца'
+  name = 'Барашек'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+sheep = Sheep ('стричь', '100')
+print(Sheep.pet + ' по кличке ' + sheep.name + '. Скоро нужно будет ' + sheep.skills + ', весит она ' + sheep.weight + ' кг.') 
+
+class Sheep (Animal):
+  pet = 'Овца'
+  name = 'Кудрявый'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+sheep = Sheep ('стричь', '120')
+print(Sheep.pet + ' по кличке ' + sheep.name + ', стоит уже ' + sheep.skills + ', а то слишком лохматый, да и весит ' + sheep.weight + ' кг.') 
+
+
+class Chickenpet (Animal):
+  pet = 'Курочка'
+  name = 'Ко-ко'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+Chicken = Chickenpet ('собрать яйца', '5')
+print(Chicken.pet + ' по имени ' + Chicken.name + ' снесла кое-что и надо ' + Chicken.skills + ', а ещё её вес ' + Chicken.weight + ' кг.') 
+
+class Chickenpet (Animal):
+  pet = 'Курочка'
+  name = 'Кукареку'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+Chicken = Chickenpet ('собрать яйца', '6')
+print(Chicken.pet + ' по имени ' + Chicken.name + ' не хочет нестись и вам будет сложно ' + Chicken.skills + ', весит эта пташка ' + Chicken.weight + ' кг.') 
+
+
+class Goatpet (Animal):
+  pet = 'Коза'
+  name = 'Рога'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+Goat = Goatpet ('доить', '80')
+print(Goat.pet + ' по кличке ' + Goat.name + ', пора ' + Goat.skills + ', и она у вас стройняшка весом ' + Goat.weight + ' кг.') 
+
+class Goatpet (Animal):
+  pet = 'Коза'
+  name = 'Копыта'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+Goat = Goatpet ('доить', '120')
+print(Goat.pet + ' по кличке ' + Goat.name + ', пора ' + Goat.skills + ', вес у неё ' + Goat.weight + ' кг.') 
+
+class Duckpet (Animal):
+  pet = 'Уточка'
+  name = 'Кряква'
+  skills = ''
+  weight = ''
+  voice = ''
+
+  def __init__(self, skills, weight, voice):
+    self.skills = skills
+    self.weight = weight
+    self.voice = voice
+
+Duck = Duckpet ('собрать яйца', '4', 'кря-кря')
+print(Duck.pet + ' по имени ' + Duck.name + ' , у которой надо ' + Duck.skills + ', а весит эта красотка ' + Duck.weight + ' кг. ' 'И обязательно послушайте ' + Duck.voice) 
+
+print('\t И два весёлыйх гуся: \n')
+
+class Goosepet (Animal):
+  pet = 'Гусь'
+  name = 'Белый'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+Goose = Goosepet ('кормить', '4')
+print(Goose.pet + ' один ' + Goose.name + ', которого пора ' + Goose.skills + ', ибо вес равен ' + Goose.weight + ' кг.') 
+
+class Goosepet (Animal):
+  pet = 'Гусь'
+  name = 'Серый'
+  skills = ''
+  weight = ''
+
+  def __init__(self, skills, weight):
+    self.skills = skills
+    self.weight = weight
+
+Goose = Goosepet ('собрать яйца', '6')
+print(Goose.pet + ' другой ' + Goose.name + ', и у неё надо ' + Goose.skills + ', а вес равен ' + Goose.weight + ' кг.')
